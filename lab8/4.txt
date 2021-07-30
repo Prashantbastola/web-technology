@@ -18,11 +18,11 @@ Database changed
 mysql> INSERT INTO students
     -> (name,address,phone_number,bio,user_id)
     -> VALUES
-    -> ("RONAK","KATHMANDU",98273789,"I like music",25),
-    -> ("Susan","LALITPUR",98192863,"I like Reading",26),
-    -> ("Asim","POKHARA",98485834,"I like Sports",30),
-    -> ("MANAN","BAGAR",987532,"I LIKE SWIMMING",35),
-    -> ("SAJAN","HEMJA",987654,"I LIKE GAMING",40);
+    -> ("PRASHANT","KATHMANDU",98981925,"I like dance",21),
+    -> ("Sabin","BHARATPUR",98756432,"I like comics",25),
+    -> ("Anju","POKHARA",98235481,"I like to watch tv",35),
+    -> ("Sujan","NADIPUR",98196785,"I LIKE COOKING",40),
+    -> ("RAMESH","LAMACHOUR",98012597,"I LIKE SPORTS",50);
 Query OK, 5 rows affected (0.00 sec)
 Records: 2  Duplicates: 0  Warnings: 0
 
@@ -30,22 +30,22 @@ mysql> SELECT * FROM students;
 +----+-------+-----------+--------------+-----------------+---------+
 | id | name  | address   | phone_number | bio             | user_id |
 +----+-------+-----------+--------------+-----------------+---------+
-|  1 | RONAK | KATHMANDU |     98273789 | I like music    |      25 |
-|  2 | Susan | LALITPUR  |     98192863 | I like Reading  |      26 |
-|  3 | Asim  | POKHARA   |     98485834 | I like Sports   |      30 |
-|  4 | MANAN | BAGAR     |       987532 | I LIKE SWIMMING |      35 |
-|  5 | SAJAN | HEMJA     |       987654 | I LIKE GAMING   |      40 |
+|  1 | PRASHANT | KATHMANDU | 98981925 | I like dance    | 21 |
+|  2 |Sabin |BHARATPUR  | 98756432 | I like to comics | 25 |
+|  3 | Anju  | POKHARA | 98235481 | I like to watch tv  | 35 |
+|  4 | Sujan |NADIPUR | 9819675 | I LIKE SWIMMING | 35 |
+|  5 |RAMESH | LAMACHOUR    | 98012597 | I LIKE SPORTS   | 50 |
 +----+-------+-----------+--------------+-----------------+---------+
 5 rows in set (0.00 sec)
 
 mysql> INSERT INTO users
     -> (user_name,password,email)
     -> VALUES
-    -> ("biswa3","CLFA32","biswa3@gmail.com"),
-    -> ("mazzy","dalle3","mazzy3@gmail.com"),
-    -> ("maximus","asdfas","maxim45@gmail.com"),
-    -> ("name33","asfdfe","name33@gmail.com"),
-    -> ("tiger45","eqey","tiger45@gmail.com");
+    -> ("kumar","dalum","kumar13@gmail.com"),
+    -> ("nancy","aswcyz","nancy10@gmail.com"),
+    -> ("siddibinayak","intro1","siddibinayak40@gmail.com"),
+    -> ("intel","fulbari11","intel19@gmail.com"),
+    -> ("himani","yafwbh1","himani45@gmail.com");
 Query OK, 5 rows affected (0.00 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 
